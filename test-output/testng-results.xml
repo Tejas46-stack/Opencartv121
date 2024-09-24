@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-23T00:04:22 IST" name="Failed suite [Suite]" finished-at="2024-09-23T00:04:54 IST" duration-ms="32273">
+    <groups>
+      <group name="Master">
+        <method signature="TC_002_loginTest.verify_login()[pri:0, instance:testcase.TC_002_loginTest@4879f0f2]" name="verify_login" class="testcase.TC_002_loginTest"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC_002_loginTest.verify_login()[pri:0, instance:testcase.TC_002_loginTest@4879f0f2]" name="verify_login" class="testcase.TC_002_loginTest"/>
+      </group> <!-- Sanity -->
+    </groups>
+    <test started-at="2024-09-23T00:04:22 IST" name="Test(failed)" finished-at="2024-09-23T00:04:54 IST" duration-ms="32273">
+      <class name="testcase.TC_002_loginTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testcase.TC_002_loginTest@4879f0f2]" started-at="2024-09-23T00:04:22 IST" name="setup" finished-at="2024-09-23T00:04:47 IST" duration-ms="24530" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_login()[pri:0, instance:testcase.TC_002_loginTest@4879f0f2]" started-at="2024-09-23T00:04:47 IST" name="verify_login" finished-at="2024-09-23T00:04:53 IST" duration-ms="6694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcase.TC_002_loginTest@4879f0f2]" started-at="2024-09-23T00:04:54 IST" name="teardown" finished-at="2024-09-23T00:04:54 IST" duration-ms="586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcase.TC_002_loginTest -->
+    </test> <!-- Test(failed) -->
+  </suite> <!-- Failed suite [Suite] -->
+</testng-results>
